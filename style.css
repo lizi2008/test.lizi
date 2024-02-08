@@ -1,0 +1,59 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+body{
+   background-image: url(./bg.png); 
+   background-color: antiquewhite;
+}
+
+.all{
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  margin-top: 250px;
+  gap: 16px;
+
+}
+
+
+
+input{
+    height: 30px;
+    width: 100%;
+}
+
+.name{
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+}
+
+.last{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
+#email{
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+}
+
+.date{
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+#password{
+    font-family: 'EB Garamond', serif;
+ 
+}
+
+#number{
+    display: flex;
+    font-family: 'Teko', sans-serif;
+    font-size: 23px;
+}
